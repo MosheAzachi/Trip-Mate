@@ -25,7 +25,7 @@ A React-based web application for planning trips. It integrates with AI to provi
 2. Navigate to the project directory:
 
    ```bash
-   cd trip-planner
+   cd Trip-Mate
    ```
 
 3. Install dependencies:
@@ -37,3 +37,13 @@ A React-based web application for planning trips. It integrates with AI to provi
    VITE_GEMINI_MODEL = your_model_here
    VITE_GEMINI_API_KEY=your_api_key_here
    ```
+
+## Usage
+
+1. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+2. Open your browser and navigate to http://localhost:5173.
