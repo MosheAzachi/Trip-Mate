@@ -34,7 +34,7 @@ A React-based web application for planning trips. It integrates with AI to provi
    ```
 4. Create a .env file and add your API key:
    ```bash
-   VITE_GEMINI_MODEL = your_model_here
+   VITE_GEMINI_MODEL=your_model_here
    VITE_GEMINI_API_KEY=your_api_key_here
    ```
 
