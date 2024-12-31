@@ -1,0 +1,27 @@
+.activity {
+  @apply flex items-center justify-center w-32 gap-2 bg-background rounded-2xl py-2 cursor-pointer;
+}
+
+.activity:hover {
+  @apply bg-cyan-200;
+}
+
+.activity.active {
+  @apply outline outline-2 outline-primary;
+}
+
+button.primary {
+  @apply px-8 py-4 text-xl bg-primary text-background;
+}
+
+button.primary:hover {
+  @apply scale-102 transition-transform;
+}
+
+button.secondary {
+  @apply px-8 py-4 text-xl text-blue border-2 border-secondary;
+}
+
+button.secondary:hover {
+  @apply shadow-2xl shadow-secondary transition-shadow duration-500;
+}
